@@ -31,6 +31,18 @@
 ------------------------------------ // ---------------------------------------------------------
 ````
 
+#### Integrate Stripe with Angular 10
+###### https://medium.com/bitontree/integrate-stripe-with-angular-10-e9e86874d889
+
+````
+O Stripe fornece várias bibliotecas JavaScript - Stripe Elements & Checkout - que tornam conveniente coletar e validar fontes de pagamento como cartões de crédito, contas bancárias e muito mais. Com Stripe.js, você também pode tokenizar informações confidenciais, integrar com Checkout e lidar com autenticação 3D Secure.
+
+````
+
+
+````
+------------------------------------ // ---------------------------------------------------------
+````
 
 
 

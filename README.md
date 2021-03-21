@@ -56,7 +56,6 @@ O Stripe fornece várias bibliotecas JavaScript - Stripe Elements & Checkout - q
 ````
 
 #### 👆 Creatively Decouple ngOnChanges
-###### https://stackblitz.com/edit/angular-cdk-portals-czpd1p -- HEADER EXEMPLO
 ###### https://medium.com/angular-in-depth/creatively-decouple-ngonchanges-fab95395cc6e
 ###### https://stackblitz.com/edit/ngonchanges-simplechanges?file=app%2Fapp.component.ts
 ###### https://stackblitz.com/edit/ngonchanges-example-1?file=src%2Fapp%2Fdoctor-card%2Fdoctor-card.component.ts
@@ -123,7 +122,7 @@ When it comes to subscribing to property changes in Angular, I think most people
 
 
 ####  🏹 Usando Angular CDK Portal para criar um Modal
-###### https://stackblitz.com/edit/angular-cdk-portals-czpd1p
+###### https://stackblitz.com/edit/angular-cdk-portals-czpd1p -- HEADER EXEMPLO
 ###### https://medium.com/@joaoghignatti/usando-angular-cdk-portal-para-criar-um-modal-213f5551ec1
 ###### https://stackblitz.com/github/JGhignatti/angular-cdk-modal?file=src%2Fapp%2Fmodal%2Fservices%2Fgeneric-modal.service.ts
 ###### https://github.com/Gabriel10Velloso/angularsp-cdk-portal

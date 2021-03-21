@@ -55,7 +55,7 @@ O Stripe fornece várias bibliotecas JavaScript - Stripe Elements & Checkout - q
 ------------------------------------ // ---------------------------------------------------------
 ````
 
-#### 👆 Integrate Stripe with Angular 10
+#### 👆 Creatively Decouple ngOnChanges
 ###### https://medium.com/angular-in-depth/creatively-decouple-ngonchanges-fab95395cc6e
 ###### https://stackblitz.com/edit/ngonchanges-simplechanges?file=app%2Fapp.component.ts
 

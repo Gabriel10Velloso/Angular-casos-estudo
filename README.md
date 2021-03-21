@@ -203,6 +203,26 @@ When it comes to subscribing to property changes in Angular, I think most people
 ````
 
 
+####  🔇 Angular Resolver for Prefetching Data
+###### https://javascript.plainenglish.io/angular-resolver-for-prefetching-data-angular-guards-resolve-40fda257d666
+###### https://stackblitz.com/edit/angular-route-resolvers-brbkr6
+````
+
+````
+@Injectable()
+export class UserResolver implements Resolve<Observable<any>> {
+  constructor(private userService: GithubUserService) {}
+
+  resolve(): Observable<any> {
+    return this.userService.getUsers();
+  }
+}
+````
+------------------------------------ // ---------------------------------------------------------
+````
+
+
+
 
 
 

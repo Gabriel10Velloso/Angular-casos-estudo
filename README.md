@@ -209,7 +209,7 @@ When it comes to subscribing to property changes in Angular, I think most people
 ````
 
 ````
-@Injectable()
+
 export class UserResolver implements Resolve<Observable<any>> {
   constructor(private userService: GithubUserService) {}
 
@@ -217,6 +217,7 @@ export class UserResolver implements Resolve<Observable<any>> {
     return this.userService.getUsers();
   }
 }
+	
 ````
 ------------------------------------ // ---------------------------------------------------------
 ````

@@ -154,6 +154,26 @@ When it comes to subscribing to property changes in Angular, I think most people
 ------------------------------------ // ---------------------------------------------------------
 ````
 
+####  🅰️ Angular Elements
+###### https://stackblitz.com/edit/angular-elements-demo-if3dxp
+###### https://stackblitz.com/edit/angular-qcwuw7?file=src/app/popup.service.ts
+###### https://www.youtube.com/watch?v=y73NMviRoPY
+
+
+````
+  constructor(injector: Injector, public popup: PopupService) {
+    // Convert `PopupComponent` to a custom element.
+    const PopupElement = createCustomElement(PopupComponent, {injector});
+    // Register the custom element with the browser.
+    customElements.define('popup-element', PopupElement);
+  }
+````
+
+````
+------------------------------------ // ---------------------------------------------------------
+````
+
+
 
 
 

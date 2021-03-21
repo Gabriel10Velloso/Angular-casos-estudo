@@ -158,7 +158,7 @@ When it comes to subscribing to property changes in Angular, I think most people
 ###### https://stackblitz.com/edit/angular-elements-demo-if3dxp
 ###### https://stackblitz.com/edit/angular-qcwuw7?file=src/app/popup.service.ts
 ###### https://www.youtube.com/watch?v=y73NMviRoPY
-###### https://stackblitz.com/edit/angular-elements-ivy?file=src%2Findex.html
+###### https://stackblitz.com/edit/angular-elements-ivy-ehw51p?file=src%2Findex.html
 
 
 ````

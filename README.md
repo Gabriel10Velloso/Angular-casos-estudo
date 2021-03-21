@@ -1,6 +1,6 @@
 # Angular-casos-estudo
 
-#### Angular inDepth.dev
+#### 🌝 Angular inDepth.dev
 #### https://indepth.dev/angular
 ````
 https://indepth.dev/angular
@@ -10,7 +10,7 @@ https://indepth.dev/angular
 ------------------------------------ // ---------------------------------------------------------
 ````
 
-#### lazy-loaded Angular modules for Ivy!
+#### 🍦 lazy-loaded Angular modules for Ivy!
 
 ````
     RouterModule.forRoot([
@@ -30,7 +30,7 @@ https://indepth.dev/angular
 ````
 
 
-#### Autofocus That Works Anytime in Angular Apps
+#### 🌄 Autofocus That Works Anytime in Angular Apps
 ###### https://netbasal.com/autofocus-that-works-anytime-in-angular-apps-68cb89a3f057
 
 ````
@@ -42,7 +42,7 @@ https://indepth.dev/angular
 ------------------------------------ // ---------------------------------------------------------
 ````
 
-#### Integrate Stripe with Angular 10
+#### 🎃 Integrate Stripe with Angular 10
 ###### https://medium.com/bitontree/integrate-stripe-with-angular-10-e9e86874d889
 
 ````
@@ -54,6 +54,8 @@ O Stripe fornece várias bibliotecas JavaScript - Stripe Elements & Checkout - q
 ````
 ------------------------------------ // ---------------------------------------------------------
 ````
+
+
 
 
 

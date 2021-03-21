@@ -124,7 +124,7 @@ When it comes to subscribing to property changes in Angular, I think most people
 ####  🏹 Usando Angular CDK Portal para criar um Modal
 ###### https://medium.com/@joaoghignatti/usando-angular-cdk-portal-para-criar-um-modal-213f5551ec1
 ###### https://stackblitz.com/github/JGhignatti/angular-cdk-modal?file=src%2Fapp%2Fmodal%2Fservices%2Fgeneric-modal.service.ts
-######
+###### https://github.com/Gabriel10Velloso/angularsp-cdk-portal
 
 
 ````

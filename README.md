@@ -121,6 +121,38 @@ When it comes to subscribing to property changes in Angular, I think most people
 ````
 
 
+####  🏹 Usando Angular CDK Portal para criar um Modal
+###### https://medium.com/@joaoghignatti/usando-angular-cdk-portal-para-criar-um-modal-213f5551ec1
+###### https://stackblitz.com/github/JGhignatti/angular-cdk-modal?file=src%2Fapp%2Fmodal%2Fservices%2Fgeneric-modal.service.ts
+######
+
+
+````
+<div bsModal
+     #modal="bs-modal"
+     class="modal fade"
+     tabindex="-1"
+     role="dialog"
+     [config]="{ignoreBackdropClick: true, keyboard: false}"
+     [class.right]="position === modalPositionEnum.RIGHT">
+  <div class="modal-dialog modal-sm">
+    <div class="modal-content">
+
+      <div class="modal-body">
+        <ng-container *cdkPortalOutlet></ng-container>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+````
+
+````
+------------------------------------ // ---------------------------------------------------------
+````
+
+
 
 
 

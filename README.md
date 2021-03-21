@@ -55,6 +55,19 @@ O Stripe fornece várias bibliotecas JavaScript - Stripe Elements & Checkout - q
 ------------------------------------ // ---------------------------------------------------------
 ````
 
+#### 👆 Integrate Stripe with Angular 10
+###### https://medium.com/angular-in-depth/creatively-decouple-ngonchanges-fab95395cc6e
+###### https://stackblitz.com/edit/ngonchanges-simplechanges?file=app%2Fapp.component.ts
+
+````
+When it comes to subscribing to property changes in Angular, I think most people would immediately think of thengOnChanges lifecycle hook. A typical example looks like this:
+
+````
+
+````
+------------------------------------ // ---------------------------------------------------------
+````
+
 
 
 

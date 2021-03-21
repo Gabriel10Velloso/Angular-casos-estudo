@@ -1,4 +1,15 @@
 # Angular-casos-estudo
+
+#### Angular inDepth.dev
+#### https://indepth.dev/angular
+````
+https://indepth.dev/angular
+````
+
+````
+------------------------------------ // ---------------------------------------------------------
+````
+
 #### lazy-loaded Angular modules for Ivy!
 
 ````

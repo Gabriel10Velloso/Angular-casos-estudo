@@ -207,17 +207,42 @@ When it comes to subscribing to property changes in Angular, I think most people
 ###### https://javascript.plainenglish.io/angular-resolver-for-prefetching-data-angular-guards-resolve-40fda257d666
 ###### https://stackblitz.com/edit/angular-route-resolvers-brbkr6
 ````
-
+  constructor(injector: Injector, public popup: PopupService) {
+    // Convert `PopupComponent` to a custom element.
+    const PopupElement = createCustomElement(PopupComponent, {injector});
+    // Register the custom element with the browser.
+    customElements.define('popup-element', PopupElement);
+  }
+  
+  
+  
+  <html>
+  <head>
+    <title>Angular App</title>
+    <script>
+      function loadElement() {
+        const container = document.querySelector('#container');
+        const elm = document.createElement('app-element');
+        const items = [
+          'Item 1',
+          'Item 2',
+          'Item 3',
+        ];
+        elm.label = "My List";
+        elm.items = items;
+        container.appendChild(elm);
+      }      
+    </script>
+  </head>
+  <body>
+    <button onclick="loadElement()">Load Element</button>
+    <div id="container">
+      <!-- element loads here -->
+    </div>
+  </body>
+</html>
 ````
 
-export class UserResolver implements Resolve<Observable<any>> {
-  constructor(private userService: GithubUserService) {}
-
-  resolve(): Observable<any> {
-    return this.userService.getUsers();
-  }
-}
-	
 ````
 ------------------------------------ // ---------------------------------------------------------
 ````

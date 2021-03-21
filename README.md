@@ -99,6 +99,30 @@ When it comes to subscribing to property changes in Angular, I think most people
 ````
 
 
+#### ❤️ Angular — Using NgTemplateOutlet to communicate between parent and dynamic child components
+###### https://stackblitz.com/edit/ng-template-outlet-simple-inwkbw?file=src%2Fapp%2Fdetail-projection%2Fdetail-projection.component.html
+###### 
+
+
+````
+<div class="outer">
+	Outer Bix
+	<ng-template [ngTemplateOutlet]="detail" *ngIf="outside"></ng-template>
+	<div class="inner">
+		inner box
+		<ng-template [ngTemplateOutlet]="detail" *ngIf="!outside"></ng-template>
+	</div>
+</div>
+
+````
+
+````
+------------------------------------ // ---------------------------------------------------------
+````
+
+
+
+
 
 
 

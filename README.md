@@ -71,7 +71,7 @@ When it comes to subscribing to property changes in Angular, I think most people
 ````
 
 
-#### 👆 Dynamic Components in Angular (IMPORTANTE)
+#### 🧯 Dynamic Components in Angular (IMPORTANTE)
 ###### https://codeburst.io/dynamic-components-in-angular-8fd12490ab8
 ###### https://github.com/Gabriel10Velloso/pet-chat-ComponentFactoryResolver
 

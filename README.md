@@ -158,6 +158,7 @@ When it comes to subscribing to property changes in Angular, I think most people
 ###### https://stackblitz.com/edit/angular-elements-demo-if3dxp
 ###### https://stackblitz.com/edit/angular-qcwuw7?file=src/app/popup.service.ts
 ###### https://www.youtube.com/watch?v=y73NMviRoPY
+###### https://stackblitz.com/edit/angular-elements-ivy?file=src%2Findex.html
 
 
 ````
@@ -167,6 +168,34 @@ When it comes to subscribing to property changes in Angular, I think most people
     // Register the custom element with the browser.
     customElements.define('popup-element', PopupElement);
   }
+  
+  
+  
+  <html>
+  <head>
+    <title>Angular App</title>
+    <script>
+      function loadElement() {
+        const container = document.querySelector('#container');
+        const elm = document.createElement('app-element');
+        const items = [
+          'Item 1',
+          'Item 2',
+          'Item 3',
+        ];
+        elm.label = "My List";
+        elm.items = items;
+        container.appendChild(elm);
+      }      
+    </script>
+  </head>
+  <body>
+    <button onclick="loadElement()">Load Element</button>
+    <div id="container">
+      <!-- element loads here -->
+    </div>
+  </body>
+</html>
 ````
 
 ````

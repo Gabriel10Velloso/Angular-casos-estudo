@@ -71,6 +71,35 @@ When it comes to subscribing to property changes in Angular, I think most people
 ````
 
 
+#### 👆 Dynamic Components in Angular (IMPORTANTE)
+###### https://codeburst.io/dynamic-components-in-angular-8fd12490ab8
+###### https://github.com/Gabriel10Velloso/pet-chat-ComponentFactoryResolver
+
+
+````
+  ngOnInit(): void {
+    this.viewContainerRef.clear();
+    const cat = this.member as Cat;
+    const dog = this.member as Dog;
+    if (cat.favoriteComfyPlace) {
+      const catComponentFactory = this.componentFactoryResolver.resolveComponentFactory(CatItemComponent);
+      const componentRef = this.viewContainerRef.createComponent(catComponentFactory);
+      componentRef.instance.member = cat;
+    } else if (dog.favoritePark) {
+      const dogComponentFactory = this.componentFactoryResolver.resolveComponentFactory(DogItemComponent);
+      const componentRef = this.viewContainerRef.createComponent(dogComponentFactory);
+      componentRef.instance.member = dog;
+    }
+  }
+
+````
+
+````
+------------------------------------ // ---------------------------------------------------------
+````
+
+
+
 
 
 

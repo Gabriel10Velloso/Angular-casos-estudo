@@ -1,3 +1,15 @@
+# Angular ElementRef Renderer2 @Inject(DOCUMENT)
+
+#### 🌝 getElementById
+#### this.renderer.appendChild(this.elementRef.nativeElement, link);
+#### this.renderer2.setProperty(this.elementRef.nativeElement, 'href', 'https://github.com/Gabriel10Velloso');
+#### this.renderer2.setAttribute(this.elementRef.nativeElement, 'target', '_blank');
+
+````
+https://stackblitz.com/edit/importante-viewchild-addclass
+````
+
+
 # Angular-casos-estudo
 
 #### 🌝 Angular inDepth.dev

@@ -5,7 +5,7 @@
 
 ````
 https://onna.dev/implement-micro-frontends-in-angular-using-nx/
- https://github.com/ebrehault/micro-frontend-with-nx.git
+https://github.com/ebrehault/micro-frontend-with-nx
 ````
 
 

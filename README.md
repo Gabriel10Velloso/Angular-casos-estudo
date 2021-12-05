@@ -1,3 +1,14 @@
+
+
+# ANIMAÇÃO ANGULAR
+
+````
+https://stackblitz.com/edit/angular-animations-lib-demo-ine1m8
+https://github.com/filipows/angular-animations
+
+````
+
+
 # MICRO FRONTE END
 
 #### 🌝 mplement micro frontends in Angular using Nx

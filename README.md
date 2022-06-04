@@ -17,6 +17,7 @@ https://github.com/filipows/angular-animations
 ````
 https://onna.dev/implement-micro-frontends-in-angular-using-nx/
 https://github.com/ebrehault/micro-frontend-with-nx
+https://github.com/Gabriel10Velloso/multiple-angular-applications
 https://github.com/Gabriel10Velloso/micro-angular-elements-
 ````
 

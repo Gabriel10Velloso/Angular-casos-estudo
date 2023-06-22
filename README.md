@@ -1,4 +1,62 @@
+# To change the data between two different arrays, with position A receiving value B and position B receiving value A from twisted arrays
 
+````
+                               EX 1..........................
+    const text = [];
+    this.monthNames = []
+    const newArray = [];
+
+    for (let i = 0; i < text.length; i++) {
+      const newObj = {
+        a: this.monthNames[i].a,
+        b: text[i].b
+      };
+      newArray.push(newObj);
+    }
+
+    console.log('wwwwww',newArray);
+
+
+			 EX 2..........................RXJS
+
+    let example: any; // const example = new Subject<any>();
+    example = forkJoin({
+      // emit 'Hello' immediately
+      sourceOne: of(text),
+      sourceTwo: of(this.monthNames).pipe(delay(1000)),
+    }).pipe(
+      map(res => {
+	let array1 = res.sourceOne
+	let array2 = res.sourceTwo
+
+	const newArray = [];
+
+	for (let i = 0; i < array1.length; i++) {
+	  const newObj = {
+	    a: array2[i].a,
+	    b: array1[i].b
+	  };
+	  newArray.push(newObj);
+	}
+
+	return newArray
+      }),
+      catchError(error => of(error))
+    )
+
+    example
+      .subscribe({
+	next: (res: any) => {
+	  console.log('RESULTADO', res)
+	},
+	error: () => { },
+	complete: () => { }
+      })
+
+
+
+
+````
 
 # ANIMAÇÃO ANGULAR
 

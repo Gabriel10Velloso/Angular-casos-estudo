@@ -54,7 +54,20 @@
       })
 
 
+                             EX 3..........................RXJS concatAll() ... para outra situação
 
+const obs1 = of(text);
+const obs2 = of(this.monthNames);
+// const source = of(obs1, obs2);
+const source = of(text, this.monthNames);
+const example = source.pipe(
+concatAll()
+);
+example.subscribe((val:any) => {
+console.log(val)
+// let a = val.filter((b:any) => b == 0);
+// console.log(a)
+});
 
 ````
 

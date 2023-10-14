@@ -1,3 +1,47 @@
+# Medium
+
+````
+Advanced Enum Techniques in Angular TypeScript Projects: Elevating Code Clarity
+https://medium.com/@ayushgrwl365/advanced-enum-techniques-in-angular-typescript-projects-elevating-code-clarity-6b0a654fa29d
+
+
+Introducing Angular’s New Control Flow
+https://medium.com/ngconf/new-in-angular-updated-control-flow-b6f0d6af7dfe
+https://github.com/eduardoRoth/v17-control-flow
+<div class="add-new">
+  @if (showAddName()) {
+    <input type="text" [formControl]="newName" />
+    <button (click)="addName()">Add name</button>
+    <button (click)="showAddName.set(false)">Close</button>
+  } @else {
+    <button (click)="showAddName.set(true)">Add a new name</button>
+  }
+</div>
+
+<ul class="names">
+  @for (name of names(); track name) {
+    <li>
+      {{name}}
+    </li>
+  } @empty {
+    <li>Name list is empty</li>
+  }
+</ul>
+
+
+
+Goodbye if-else, Hello Pattern Matching in JavaScript (PROPOSAL)
+https://medium.com/@techsuneel99/goodbye-if-else-hello-pattern-matching-in-javascript-proposal-e8682458d863
+https://codeeverywhere.medium.com/goodbye-if-else-hello-pattern-matching-in-javascript-52bd46eda41f
+````
+
+
+
+
+
+
+
+
 # To change the data between two different arrays, with position A receiving value B and position B receiving value A from twisted arrays
 
 ````

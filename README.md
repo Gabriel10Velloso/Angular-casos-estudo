@@ -1,11 +1,11 @@
 # Medium
 
 ````
-Advanced Enum Techniques in Angular TypeScript Projects: Elevating Code Clarity
+👌 Advanced Enum Techniques in Angular TypeScript Projects: Elevating Code Clarity
 https://medium.com/@ayushgrwl365/advanced-enum-techniques-in-angular-typescript-projects-elevating-code-clarity-6b0a654fa29d
 
 
-Introducing Angular’s New Control Flow
+👌 Introducing Angular’s New Control Flow
 https://medium.com/ngconf/new-in-angular-updated-control-flow-b6f0d6af7dfe
 https://github.com/eduardoRoth/v17-control-flow
 <div class="add-new">
@@ -30,7 +30,7 @@ https://github.com/eduardoRoth/v17-control-flow
 
 
 
-Goodbye if-else, Hello Pattern Matching in JavaScript (PROPOSAL)
+👌 Goodbye if-else, Hello Pattern Matching in JavaScript (PROPOSAL)
 https://medium.com/@techsuneel99/goodbye-if-else-hello-pattern-matching-in-javascript-proposal-e8682458d863
 https://codeeverywhere.medium.com/goodbye-if-else-hello-pattern-matching-in-javascript-52bd46eda41f
 ````

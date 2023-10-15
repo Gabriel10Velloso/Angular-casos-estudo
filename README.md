@@ -33,6 +33,19 @@ https://github.com/eduardoRoth/v17-control-flow
 👌 Goodbye if-else, Hello Pattern Matching in JavaScript (PROPOSAL)
 https://medium.com/@techsuneel99/goodbye-if-else-hello-pattern-matching-in-javascript-proposal-e8682458d863
 https://codeeverywhere.medium.com/goodbye-if-else-hello-pattern-matching-in-javascript-52bd46eda41f
+
+
+👌 private zone: NgZone
+https://netbasal.com/optimizing-angular-change-detection-triggered-by-dom-events-d2a3b2e11d87
+export class TestComponent {
+  constructor(private zone: NgZone) {}
+
+  ngOnInit() {
+    this.zone.runOutsideAngular(() => {
+      // don't forget to unsubscribe
+      fromEvent(window, 'scroll').subscribe(...);
+    });
+}
 ````
 
 

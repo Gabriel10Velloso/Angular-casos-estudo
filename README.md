@@ -49,6 +49,31 @@ export class TestComponent {
 
 👌 Feature Flags in Angular 16
 https://levelup.gitconnected.com/feature-flags-in-angular-16-472254256b0c
+
+
+👌 https://medium.com/@codelogy/garbage-collection-with-destroyref-in-angular-16-6497d8ed44b0
+Garbage collection with DestroyRef in Angular 16
+
+import { Component, DestroyRef, inject, OnInit } from '@angular/core';
+
+@Component({
+  selector: 'app-timeout-destroy-ref',
+  template: ''
+})
+export class TimeoutDestroyRefComponent implements OnInit {
+  private _destroyRef = inject(DestroyRef);
+
+  ngOnInit() {
+    // Run some action after 5 seconds
+    const timeout = setTimeout(() => {
+      console.log('Some action');
+    }, 5000);
+    // register a destroy callback
+    this._destroyRef.onDestroy(() => {
+      clearTimeout(timeout);
+    });
+  }
+}
 ````
 
 

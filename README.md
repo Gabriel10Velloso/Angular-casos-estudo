@@ -77,6 +77,10 @@ export class TimeoutDestroyRefComponent implements OnInit {
     });
   }
 }
+
+👌 PWA: Mastering Web Service Workers in Angular: A Comprehensive Guide
+https://medium.com/@zeeshankhan8838/mastering-web-service-workers-in-angular-a-comprehensive-guide-8a6ebad4ac29
+ng add @angular/pwa
 ````
 
 

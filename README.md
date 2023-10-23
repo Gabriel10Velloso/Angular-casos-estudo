@@ -81,6 +81,9 @@ export class TimeoutDestroyRefComponent implements OnInit {
 👌 PWA: Mastering Web Service Workers in Angular: A Comprehensive Guide
 https://medium.com/@zeeshankhan8838/mastering-web-service-workers-in-angular-a-comprehensive-guide-8a6ebad4ac29
 ng add @angular/pwa
+
+👌 @Input() How I’ve Created Custom Inputs in Angular 16!
+https://blog.bitsrc.io/how-ive-created-custom-inputs-in-angular-16-43f4c2d37d07
 ````
 
 

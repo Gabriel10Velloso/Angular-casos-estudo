@@ -84,6 +84,35 @@ ng add @angular/pwa
 
 👌 @Input() How I’ve Created Custom Inputs in Angular 16!
 https://blog.bitsrc.io/how-ive-created-custom-inputs-in-angular-16-43f4c2d37d07
+
+import { Component, Input } from '@angular/core';
+
+@Component({
+  selector: 'app-component',
+  template: `
+  <h1>Input Decorator Features in Angular 16 Example</h1>
+
+  <input type="text" [(ngModel)]="name" placeholder="Name" required />
+  <input type="number" [(ngModel)]="age" placeholder="Age" />
+  <input type="text" [(ngModel)]="customName" placeholder="Custom Name" />
+
+  <p>Name: {{ name }}</p>
+  <p>Age: {{ age }}</p>
+  <p>Custom Name: {{ customName }}</p>
+  `,
+})
+export class AppComponent {
+
+  @Input({ required: true })
+  name: string;
+
+  @Input({ transform: (value: string) => parseInt(value, 10) })
+  age: number;
+
+  @Input({ alias: 'customName' })
+  customName: string;
+
+}
 ````
 
 

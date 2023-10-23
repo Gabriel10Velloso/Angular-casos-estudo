@@ -9,6 +9,7 @@ https://medium.com/@ayushgrwl365/advanced-enum-techniques-in-angular-typescript-
 
 
 👌 Introducing Angular’s New Control Flow
+https://stackblitz.com/edit/stackblitz-starters-dkoixf?file=src%2Fmain.ts
 https://medium.com/ngconf/new-in-angular-updated-control-flow-b6f0d6af7dfe
 https://github.com/eduardoRoth/v17-control-flow
 <div class="add-new">

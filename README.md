@@ -1,10 +1,16 @@
 # Create a responsive card grid in Angular and CSS (2023 edition!)
+````
 👌 https://github.com/Gabriel10Velloso/angular-card-grid-css
 https://www.youtube.com/watch?v=-80IDxbBxFs
+````
 
 
 # rapidapi https://rapidapi.com/hub
-👌 Várias Apis para uso
+
+````
+👌 https://rapidapi.com/hub
+ Várias Apis para uso
+````
 
 
 # Medium

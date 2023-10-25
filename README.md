@@ -1,4 +1,4 @@
-# Create a responsive card grid in Angular and CSS (2023 edition!)
+# Card grid in Angular and CSS (2023 edition!)
 ````
 👌 https://github.com/Gabriel10Velloso/angular-card-grid-css
 https://www.youtube.com/watch?v=-80IDxbBxFs

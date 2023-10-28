@@ -128,6 +128,12 @@ export class AppComponent {
 }
 ````
 
+# animations
+````
+👌 Lots of animations
+https://stackblitz.com/edit/angular-animation-directive-ad-pdpbym?file=README.md
+````
+
 # codepen
 ````
 👌 17+ CSS Round Buttons

@@ -126,6 +126,10 @@ export class AppComponent {
   customName: string;
 
 }
+
+👌 debounceTime
+https://netbasal.com/take-advantage-of-the-let-operator-in-angular-d351fd4bd1d9
+
 ````
 
 # animations
@@ -138,6 +142,45 @@ https://stackblitz.com/edit/angular-animation-directive-ad-pdpbym?file=README.md
 ````
 👌 17+ CSS Round Buttons
 https://alvarotrigo.com/blog/css-round-button/
+@Component({
+  selector: 'app-input',
+  template: `
+    <input type="text" [formControl]="form" class="form-control">
+  `,
+})
+export class AppInput {
+  @Output() value = new EventEmitter();
+  @Input() middleware = valueChangesObservable => valueChangesObservable;
+  form;
+  
+  ngOnInit() {
+    this.form = new FormControl();
+    
+    this.form.valueChanges.let(this.middleware).subscribe(val => {
+      this.value.next(val);
+    });
+  }
+  
+  ngOnDestory() {
+    // unsubscribe
+  }
+  
+}
+
+@Component({
+  selector: 'my-app',
+  template: `
+   <app-input (value)="doSomething($event)" [middleware]="middleware"></app-input>
+  `,
+})
+export class App {
+  middleware = valueChangesObservable => valueChangesObservable.debounceTime(1000);
+  
+  doSomething(val) {
+    console.log(val);
+  }
+  
+}
 ````
 
 

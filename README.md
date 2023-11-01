@@ -130,18 +130,6 @@ export class AppComponent {
 👌 debounceTime
 https://netbasal.com/take-advantage-of-the-let-operator-in-angular-d351fd4bd1d9
 
-````
-
-# animations
-````
-👌 Lots of animations
-https://stackblitz.com/edit/angular-animation-directive-ad-pdpbym?file=README.md
-````
-
-# codepen
-````
-👌 17+ CSS Round Buttons
-https://alvarotrigo.com/blog/css-round-button/
 @Component({
   selector: 'app-input',
   template: `
@@ -167,6 +155,7 @@ export class AppInput {
   
 }
 
+
 @Component({
   selector: 'my-app',
   template: `
@@ -181,6 +170,20 @@ export class App {
   }
   
 }
+
+````
+
+# animations
+````
+👌 Lots of animations
+https://stackblitz.com/edit/angular-animation-directive-ad-pdpbym?file=README.md
+````
+
+# codepen
+````
+👌 17+ CSS Round Buttons
+https://alvarotrigo.com/blog/css-round-button/
+
 ````
 
 

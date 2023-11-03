@@ -171,6 +171,22 @@ export class App {
   
 }
 
+👌 Angular Signals: The Future of State Management in Angular
+https://blog.stackademic.com/angular-signals-the-future-of-state-management-in-angular-13fd60cec349
+
+
+
+👌 Angular and IndexedDB: A Perfect Pair for Progressive Web Apps
+https://medium.com/@zeeshankhan8838/angular-and-indexeddb-a-perfect-pair-for-progressive-web-apps-315a39f49
+https://github.com/zeeshankhan8838/indexDb
+
+
+
+
+
+
+
+
 ````
 
 # animations

@@ -203,9 +203,40 @@ https://github.com/zeeshankhan8838/indexDb
   }
 
 
+👌 withComponentInputBinding() Angular v16 Adds an Opt-in for Binding Router Information to Component Inputs  
+https://medium.com/@navneetsingh_95791/angular-v16-adds-an-opt-in-for-binding-router-information-to-component-inputs-c7fba8e3bed8
+https://www.youtube.com/watch?v=4Bc7rHcarOc
+
+👌 Resolver Guard in Angular Router (2021)
+https://www.youtube.com/watch?v=BLLO2x7_R5M
+RouterModule.forRoot([
+      {
+        path: 'detail/:id',
+        component: HeroDetailComponent,
+        resolve: {
+          hero: HeroResolver
+        }
+      }
+    ])
+if (ev instanceof NavigationEnd ||   ev instanceof NavigationCancel ||    ev instanceof NavigationError
+
+
+👌 https://levelup.gitconnected.com/3-simple-angular-tips-653f4620868
+subscriptions = new Subscription();
+person$: Observable<Person>;
+this.subscriptions.add(this.profile.getPersons().subscribe(person => this.person = person));
+
+<ng-container *ngIf="person$ | async as person">
+  Firstname: {{ person.firstName }} <br>
+  Lastname: {{ person.lastName }}
+</ng-container>
+
 
 
 ````
+
+
+
 
 # animations
 ````

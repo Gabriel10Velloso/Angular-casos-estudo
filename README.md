@@ -180,9 +180,27 @@ https://blog.stackademic.com/angular-signals-the-future-of-state-management-in-a
 https://medium.com/@zeeshankhan8838/angular-and-indexeddb-a-perfect-pair-for-progressive-web-apps-315a39f49
 https://github.com/zeeshankhan8838/indexDb
 
+👌 HttpInterceptor https://github.com/zeeshankhan8838/indexDb/blob/main/src/app/constants/services/auth.interceptor.service.ts
+   Angular: Functional Interceptors https://medium.com/@santosant/angular-functional-interceptors-3a2a2e71cdef
 
+ private addTokenToRequest( request: HttpRequest<any>,   token: string ): HttpRequest<any> {
+    let isTokenSkip = request.params.get('X-Skip-Token');
 
-
+    if (isTokenSkip == 'true') {
+      const params = request.params.delete('X-Skip-Token');
+      request = request.clone({ params });
+    }
+    if (request.url.includes(environment.apiURL)) {
+      if (!!token) {
+        return request.clone({
+          setHeaders: {
+            Authorization: `Bearer ${token}`,
+          },
+        });
+      }
+    }
+    return request;
+  }
 
 
 

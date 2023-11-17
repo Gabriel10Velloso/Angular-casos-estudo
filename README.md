@@ -232,6 +232,15 @@ this.subscriptions.add(this.profile.getPersons().subscribe(person => this.person
 </ng-container>
 
 
+👌 HttpErrors - 400,401,404,500 and 503 randomly
+https://javascript.plainenglish.io/angular-should-httperrors-be-caught-and-handled-at-interceptor-component-service-level-a8c469e7165f
+Angular: Should HttpErrors be caught and handled at Interceptor/Component/Service level ? How can we differentiate?
+
+  getTodos() {
+    return this.http
+      .get('https://httpstat.us/Random/401,404,500,503,400')
+      .pipe(catchError((err) => throwError(err)));
+  }
 
 ````
 
@@ -248,6 +257,9 @@ https://stackblitz.com/edit/angular-animation-directive-ad-pdpbym?file=README.md
 ````
 👌 17+ CSS Round Buttons
 https://alvarotrigo.com/blog/css-round-button/
+
+
+
 
 ````
 

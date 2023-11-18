@@ -242,6 +242,10 @@ Angular: Should HttpErrors be caught and handled at Interceptor/Component/Servic
       .pipe(catchError((err) => throwError(err)));
   }
 
+👌 Deep Dive into Angular pipes
+https://medium.com/ngconf/deep-dive-into-angular-pipes-c040588cd15d
+
+
 ````
 
 

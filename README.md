@@ -173,6 +173,8 @@ export class App {
 
 👌 Angular Signals: The Future of State Management in Angular
 https://blog.stackademic.com/angular-signals-the-future-of-state-management-in-angular-13fd60cec349
+Angular Advanced Signals
+👌 https://itnext.io/angular-advanced-signals-bd8ed66bf962
 
 
 

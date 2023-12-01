@@ -1,3 +1,9 @@
+# Angular V17
+https://angular.dev/
+https://github.com/angular
+https://www.youtube.com/watch?v=MntMrlywYb8
+
+
 # Card grid in Angular and CSS (2023 edition!)
 ````
 👌 https://github.com/Gabriel10Velloso/angular-card-grid-css

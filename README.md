@@ -6,6 +6,9 @@ https://github.com/angular
 
 https://www.youtube.com/watch?v=MntMrlywYb8
 
+Signals in Angular | How to use Signals in Angular Project | State Management using Angular Signal |
+https://www.youtube.com/watch?v=kWDboeL2g4g
+
 ````
 
 # Card grid in Angular and CSS (2023 edition!)

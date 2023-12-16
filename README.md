@@ -42,6 +42,10 @@ https://buddhiamigo.medium.com/how-to-create-typescript-classes-dynamically-b29c
 
 👌 https://blog.logrocket.com/how-to-dynamically-assign-properties-object-typescript/
 
+factory<T>(type: {new(): T}, item?: any): T {
+    return new type(item);
+}
+
 
 👌 Introducing Angular’s New Control Flow
 https://stackblitz.com/edit/stackblitz-starters-dkoixf?file=src%2Fmain.ts

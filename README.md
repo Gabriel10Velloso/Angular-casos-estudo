@@ -29,6 +29,9 @@ https://www.youtube.com/watch?v=-80IDxbBxFs
 # Medium
 
 ````
+👌 Dynamically Convert Plain Objects Into TypeScript Classes
+https://betterprogramming.pub/dynamically-convert-plain-objects-into-typescript-classes-adcc788e0bcc
+
 👌 Advanced Enum Techniques in Angular TypeScript Projects: Elevating Code Clarity
 https://medium.com/@ayushgrwl365/advanced-enum-techniques-in-angular-typescript-projects-elevating-code-clarity-6b0a654fa29d
 

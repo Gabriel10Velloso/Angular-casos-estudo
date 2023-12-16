@@ -46,6 +46,17 @@ factory<T>(type: {new(): T}, item?: any): T {
     return new type(item);
 }
 
+createCar(carType: string): any {
+  switch (carType) {
+    case 'Tesla': 
+      return new Tesla();
+    case 'Audi':
+      return new Audi();
+    default:
+      throw new Error();
+  }
+}
+
 
 👌 Introducing Angular’s New Control Flow
 https://stackblitz.com/edit/stackblitz-starters-dkoixf?file=src%2Fmain.ts

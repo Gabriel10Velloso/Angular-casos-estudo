@@ -41,6 +41,30 @@ https://buddhiamigo.medium.com/how-to-create-typescript-classes-dynamically-b29c
 👌 https://stackoverflow.com/questions/72883565/dynamically-generate-and-return-a-class-object
 
 👌 https://blog.logrocket.com/how-to-dynamically-assign-properties-object-typescript/
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+class GenericClass<T> {
+    private _instance: T;
+
+    constructor(private type: new () => T) {
+        this._instance = new this.type();
+    }
+
+    getInstance(): T {
+        return this._instance;
+    }
+}
+
+// Example usage
+class ExampleClass {
+    // Some properties or methods
+}
+
+const genericInstance = new GenericClass<ExampleClass>(ExampleClass);
+const newObject = genericInstance.getInstance();
+
+console.log(newObject); // This will be an instance of ExampleClass
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 factory<T>(type: {new(): T}, item?: any): T {
     return new type(item);

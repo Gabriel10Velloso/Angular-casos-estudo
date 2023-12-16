@@ -32,6 +32,9 @@ https://www.youtube.com/watch?v=-80IDxbBxFs
 👌 Advanced Enum Techniques in Angular TypeScript Projects: Elevating Code Clarity
 https://medium.com/@ayushgrwl365/advanced-enum-techniques-in-angular-typescript-projects-elevating-code-clarity-6b0a654fa29d
 
+👌 How to create Typescript classes dynamically?
+https://buddhiamigo.medium.com/how-to-create-typescript-classes-dynamically-b29ca7767ee5
+
 
 👌 Introducing Angular’s New Control Flow
 https://stackblitz.com/edit/stackblitz-starters-dkoixf?file=src%2Fmain.ts

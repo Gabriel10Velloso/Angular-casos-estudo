@@ -35,6 +35,10 @@ https://medium.com/@ayushgrwl365/advanced-enum-techniques-in-angular-typescript-
 👌 How to create Typescript classes dynamically?
 https://buddhiamigo.medium.com/how-to-create-typescript-classes-dynamically-b29ca7767ee5
 
+👌 https://stackoverflow.com/questions/72883565/dynamically-generate-and-return-a-class-object
+
+👌 https://blog.logrocket.com/how-to-dynamically-assign-properties-object-typescript/
+
 
 👌 Introducing Angular’s New Control Flow
 https://stackblitz.com/edit/stackblitz-starters-dkoixf?file=src%2Fmain.ts
